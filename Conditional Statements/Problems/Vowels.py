@@ -1,0 +1,8 @@
+char = input("Enter a single character: ").lower()
+
+if char in 'aeiou':
+    print("Vowel")
+elif char.isalpha():
+    print("Consonant")
+else:
+    print("Not a valid alphabet character")
