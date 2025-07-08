@@ -5,3 +5,4 @@ b=3.14          #float type
 c="Ibrahim"     #this is string
 d=True          #boolean that have only true and false
 e=None          #it is Nothing
+# type() is used to know the data type of the given
