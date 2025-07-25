@@ -6,3 +6,5 @@ c="Ibrahim"     #this is string
 d=True          #boolean that have only true and false
 e=None          #it is Nothing
 # type() is used to know the data type of the given
+
+# A variavle name shouldn't start with number and shouldn't be seperated by space ot hyphen
