@@ -1,1 +1,0 @@
-print("Intrest is ",round(intrest,2))
