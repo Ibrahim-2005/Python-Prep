@@ -1,4 +1,3 @@
-
 print('Addition: ', 1 + 2)        # 3
 print('Subtraction: ', 2 - 1)     # 1
 print('Multiplication: ', 2 * 3)  # 6
