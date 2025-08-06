@@ -1,4 +1,5 @@
 # List is a collection of items which is ordered and changeable and allows duplicate items.
+# Lists are written within square brackets, []. 
 
 lst=list()          # creates an empty list into the variable "lst"
 print(lst)
