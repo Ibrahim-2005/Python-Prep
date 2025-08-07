@@ -14,6 +14,6 @@ tuple1=(1,2,3,4,5)
 tuple2=("Apple","Orange","Banana","Grapes")
 tuple3=(1,"Apple",2,"Orange",3,"Grapes")
 
-print(tuple1,"\t",tuple2,"\t",tuple3)          # All the lists are printed with a tab space between them
+print(tuple1,"\t",tuple2,"\t",tuple3)          # All the tuples are printed with a tab space between them
 
 print(len(tuple1),"\t",len(tuple2),"\t",len(tuple3))  
