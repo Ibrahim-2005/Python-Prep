@@ -27,3 +27,4 @@ shapes=[Circle(5),Square(6),Triangle(7,8),Pizza(5,"Pineapple")]
 for shape in shapes:
     print(f"{shape.area()} cm ²")
 
+git commi
