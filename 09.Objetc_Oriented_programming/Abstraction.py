@@ -2,11 +2,11 @@ from abc import ABC,abstractmethod
 
 class Vehicle(ABC):
     @abstractmethod
-    def accelerator():
+    def accelerator(self):
         pass
 
     @abstractmethod
-    def brake():
+    def brake(self):
         pass
 
 class Car(Vehicle):
@@ -23,9 +23,3 @@ class Car(Vehicle):
 car1=Car("Ferrari","Red")
 car1.accelerator()
 car1.brake()
-
-
-
-
-# static methods
-# class methods
