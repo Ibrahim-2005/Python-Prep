@@ -43,6 +43,8 @@ class Doubly_Linked_List:
         while itr:
             if count==index-1:
                 node=Node(data,itr,itr.next)
+                if itr.next:
+                    itr.next.prev=node
                 itr.next=node
                 break
             itr=itr.next
@@ -84,8 +86,7 @@ class Doubly_Linked_List:
         while itr:
             list_str+=str(itr.data)+" <--> "
             itr=itr.next
-        print(list_str+"None")      #"None <--> "+
-        
+        print(list_str+"None")      #"None <--> "+   
 dll=Doubly_Linked_List()
 dll.list_to_linked_list([1,2,5,7])
 dll.insert_at_beginning(1)
